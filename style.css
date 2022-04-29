@@ -1,8 +1,8 @@
 ul{
   list-style: none;
   }
-p, td{
-  
+
+p, td{  
 font-family: Impact, Charcoal, sans-serif;
 font-size: 24px;
 letter-spacing: 2.4px;
@@ -14,4 +14,9 @@ font-style: italic;
 font-variant: small-caps;
 text-transform: none;
 }
+
+body{
+  background-image: url("/imagem/background.png");
+}
+
 
