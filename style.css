@@ -25,15 +25,17 @@ img{
 }
 
 
-table {
-  border-collapse: separate;
-  border-spacing: 0;
-}
 
 table, td {
   align-content: center;
-  border: 1px solid black;
-  border-radius: 30px;  
-  padding: 45px;
   
+  border-radius: 35px;  
+  padding: 45px;
+  border-spacing: 20px;
+  
+}
+tr{
+  background-color: rgba(240, 248, 255, 0.582);
+  
+
 }
