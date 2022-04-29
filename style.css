@@ -19,8 +19,21 @@ body{
   background-image: url("/imagem/background.png");
 }
 
-
 img{
   width: 10rem;
   height: 11.5rem;
+}
+
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+table, td {
+  align-content: center;
+  border: 1px solid black;
+  border-radius: 30px;  
+  padding: 45px;
+  
 }
