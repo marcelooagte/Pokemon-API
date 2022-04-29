@@ -1,12 +1,10 @@
 //Utilizando 20 pokemons da api
 
-
-
 //Aplicando a função para pegar os nomes e imagens de pokemons por enquanto :
 function for20(x) {
   if (x < 3) {
-    listtd = document.getElementById('1tr'),
-    listtd2 = document.getElementById('1td')
+    ;(listtd = document.getElementById('1tr')),
+      (listtd2 = document.getElementById('1td'))
   }
   if (x >= 3) {
     if (x < 6) {
@@ -49,7 +47,7 @@ function endereco() {
         fetch(retorno).then(response2 =>
           response2.json().then(dados2 => {
             ;(newItem.src = `${dados2.sprites.other.dream_world.front_default}`),
-              (newItem2.textContent = `${dados2.forms[0].name}:`),
+              (newItem2.textContent = `${dados2.forms[0].name}`),
               for20(x)
             listtd.appendChild(newItem2).appendChild(newItem)
             listtd2.appendChild(newItem)
